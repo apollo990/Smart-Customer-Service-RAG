@@ -1,0 +1,28 @@
+# 环境变量 - 包含 API Key，绝对不能提交
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 向量存储
+vector_store/
+
+# Claude 本地配置
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
